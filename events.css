@@ -1,0 +1,185 @@
+.eventCard {
+  padding: 25px;
+
+  display: flex;
+  gap: 10px;
+  min-height: 300px;
+  margin-right: 15px;
+  margin-bottom: 50px;
+
+  background: rgba(186, 215, 233, 0.55);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(11px);
+  -webkit-backdrop-filter: blur(11px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.mainPageMainDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.mainPageFilterSelect {
+  width: 225px;
+}
+
+.mainPageFilterDiv {
+  position: fixed;
+  height: 100vw;
+  padding-left: 25px;
+  width: 350px;
+  background-color: #fcffe7;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding-top: 50px;
+
+  background: rgba( 252, 255, 231, 0.85 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 11px );
+-webkit-backdrop-filter: blur( 11px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.inputX {
+  width: 250px;
+  height: 50px;
+}
+
+.mainPageMainDiv {
+  margin: 50px 30px 50px 400px;
+}
+
+.marginTop100px {
+  margin-top: 100px;
+}
+.font27 {
+  font-size: 27px;
+  font-family: 600;
+}
+.mainPageMapSection {
+  width: 100%;
+  background-color: rgb(121, 70, 145);
+  margin-top: 100px;
+}
+
+.mainPageSortSection {
+  height: 100px;
+  width: 100%;
+}
+
+.mainPageSortSection {
+  display: flex;
+  justify-content: space-around;
+}
+
+.eventCardInnerText {
+  display: flex;
+  gap: 10px;
+  margin: 25px 0;
+}
+
+.eventsPeople {
+  color: #fcffe7;
+  font-size: 30px;
+}
+
+.eventCardJoinBTN {
+  font-size: 20px;
+}
+
+.eventCardJoinBTNDiv:hover {
+  position: absolute;
+  background-color: #eb455f;
+  border-radius: 35px;
+  width: 100px;
+  right: 10px;
+  top: 10px;
+
+  background: rgba( 235, 69, 95, 0.5 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 11px );
+-webkit-backdrop-filter: blur( 11px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.eventCardJoinBTNDiv {
+  position: absolute;
+  background-color: #eb455f;
+  border-radius: 10px;
+  width: 100px;
+  right: 10px;
+  top: 10px;
+
+
+}
+
+.eventCardDesLoc {
+  display: flex;
+  flex-direction: column;
+}
+
+.joinbtnDiv {
+  display: flex;
+  flex-direction: column;
+}
+
+.eventcardDivX {
+  display: flex;
+  flex-direction: column;
+  gap: 20%;
+  justify-content: center;
+}
+
+.btnBTN {
+  margin-top: 50px;
+  background-color: #2b3467;
+  border-radius: 90px;
+  color: aliceblue;
+  font-size: 27px;
+  width: 200px;
+}
+
+.eventsDes {
+  width: 80%;
+  height: 250px;
+  font-size: 25px;
+  color: #2b3467;
+}
+
+.eventsLocation {
+  color: #2b3467;
+  font-size: 20px;
+}
+.eventsCreater{
+  position: absolute;
+  bottom: 10px;
+}
+
+.eventsPhoto {
+  width: 300px;
+  height: 250px;
+}
+.eventsName {
+  font-size: 30px;
+  color: #eb455f;
+}
+.provalivatsya {
+  background-color: #2b3467;
+  padding: 5px;
+  border-radius: 35px;
+  font-size: 20px;
+}
+
+.provalivatsyaDiv {
+  position: absolute;
+  right: 50px;
+  margin-top: 300px;
+}
+
+
+.MainTextCardEvent{
+  font-weight: 900;
+}
